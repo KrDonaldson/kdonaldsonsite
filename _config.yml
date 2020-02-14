@@ -13,7 +13,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Bibliophile, biophile, and outdoor enthusiast with drive to make the world a 
   better place through technology and scientific advancement. I'm only starting 
   out but hope one day to make a substancial contribution to society. 
-baseurl: "/kdonaldsons-site" # the subpath of your site, e.g. /blog
+baseurl: "/kdonaldsonsite" # the subpath of your site, e.g. /blog
 url: "" 
 
 permalink: /blog/:title

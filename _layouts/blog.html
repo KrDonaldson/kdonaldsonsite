@@ -14,7 +14,14 @@ layout: "wrapper"
                     <!-- blog for loop starts here -->
                     {% for post in site.posts %}
                     <!-- blog box starts here -->
-                    <div class="col-12 col-12-medium">
+                        {% case forloop.index %}
+                        {% when 1 %}
+                        <div class="col-12 col-12-small">
+                        {% when 2 or 3 %}
+                        <div class="col-6 col-12-small">
+                        {% else %}
+                        <div class="col-4 col-12-small">
+                        {% endcase %}
                         <a href="{{site.baseurl}}{{post.url}}">
                             <span class="image fit"><img src="{{site.baseurl}}{{post.main_image}}" alt="Project Image" /></span>
                             <h2>{{post.title}}</h2>

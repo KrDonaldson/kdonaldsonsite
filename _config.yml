@@ -33,7 +33,7 @@ exclude:
   - README.md
   - html-templates
 
-
+markdown: kramdown
 
 
 

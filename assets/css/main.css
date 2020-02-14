@@ -3490,7 +3490,9 @@ input, select, textarea {
 	}
 
 /* Footer */
-
+	#footer{
+		padding: 1.75em 2em;	
+	}
 	#sidebar + #wrapper + #footer {
 		margin-left: 18em;
 	}
